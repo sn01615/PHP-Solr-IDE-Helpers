@@ -14,7 +14,7 @@ abstract class SolrUtils
      * @var int $parse_mode
      * @return static
      */
-    public function digestXmlResponse($xmlresponse, $parse_mode = 0)
+    public static function digestXmlResponse($xmlresponse, $parse_mode = 0)
     {
     }
 
@@ -22,14 +22,14 @@ abstract class SolrUtils
      * @var string $str
      * @return static
      */
-    public function escapeQueryChars($str)
+    public static function escapeQueryChars($str)
     {
     }
 
     /**
      * @return static
      */
-    public function getSolrVersion()
+    public static function getSolrVersion()
     {
     }
 
@@ -37,7 +37,7 @@ abstract class SolrUtils
      * @var string $str
      * @return static
      */
-    public function queryPhrase($str)
+    public static function queryPhrase($str)
     {
     }
 
